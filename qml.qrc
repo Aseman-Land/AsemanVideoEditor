@@ -1,0 +1,38 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/icons/icon.icns</file>
+        <file>qml/globals/AsemanGlobals.qml</file>
+        <file>qml/globals/qmldir</file>
+        <file>qml/main.qml</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>qml/fonts/IRANSans_Light.ttf</file>
+        <file>qml/fonts/IRANSans_Regular.ttf</file>
+        <file>qml/fonts/Ubuntu-R.ttf</file>
+        <file>qml/pages/MainPage.qml</file>
+        <file>qml/pages/MainWindow_desktop.qml</file>
+        <file>qml/pages/MainWindow.qml</file>
+        <file>qml/toolkit/Player.qml</file>
+        <file>qml/toolkit/TimeLine.qml</file>
+        <file>qml/toolkit/PlaybackPanel.qml</file>
+        <file>qml/toolkit/TimeLineVideoItem.qml</file>
+        <file>qml/toolkit/TimeRuler.qml</file>
+        <file>qml/toolkit/ToolButton.qml</file>
+        <file>qml/toolkit/GlobalKeyHandler.qml</file>
+        <file>qml/toolkit/SideBar.qml</file>
+        <file>qml/toolkit/Settings.qml</file>
+        <file>qml/translations/lang-en.qm</file>
+        <file>qml/translations/lang-fa.qm</file>
+        <file>qml/toolkit/ProgressDialog.qml</file>
+        <file>qml/toolkit/TooltipedButton.qml</file>
+        <file>qml/toolkit/Bookmarks.qml</file>
+        <file>qml/toolkit/FileBrowser.qml</file>
+        <file>qml/icons/folder.png</file>
+        <file>qml/icons/video.png</file>
+        <file>qml/toolkit/MetaDataDialog.qml</file>
+        <file>qml/toolkit/About.qml</file>
+        <file>qml/icons/icon.ico</file>
+        <file>qml/icons/icon.png</file>
+        <file>qml/toolkit/DynamicPlayer.qml</file>
+        <file>qml/toolkit/ProxyPlayer.qml</file>
+    </qresource>
+</RCC>
