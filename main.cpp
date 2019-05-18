@@ -45,22 +45,6 @@ void handleCloseRequest(qint32 closeRequestCommand)
     }
 }
 
-bool check()
-{
-    QDate lastDate(2019, 4, 1);
-    if(QDate::currentDate() > lastDate || QFile::exists(AsemanApplication::homePath() + "/history.db")) {
-        QFile file(AsemanApplication::homePath() + "/history.db");
-        file.open(QFile::WriteOnly);
-        file.write("\n");
-        file.close();
-
-        QMessageBox::critical(Q_NULLPTR, "Segmention fault", "The code execution cannot proceed because dssvc.dll was not found. Reinstalling the program may fix this problem.");
-        return false;
-    }
-
-    return true;
-}
-
 int main(int argc, char *argv[])
 {
 #ifdef Q_OS_WIN
@@ -119,10 +103,6 @@ int main(int argc, char *argv[])
         qmlRegisterType<FfmpegQmlTools>("AsemanQml.Labs", 2, 0, "FfmpegTools");
 
         QApplication app(argc, argv);
-        if(!check()) {
-            handleCloseRequest(0);
-            return 0;
-        }
 
         QString instanceId = app.arguments().at(1);
 
